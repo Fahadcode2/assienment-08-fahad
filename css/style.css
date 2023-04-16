@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 1600px;
+    margin: 0 auto;
+}
+.main-header{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    width: 100%;
+}
+.logo  img{
+    width: 30%;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+}
+nav .menu li{
+    margin-right: 50px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 18px;
+}
+.banner{
+    width: 100%;
+    min-height: 420px;
+    background-image: url(../assets/images/road.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner p{
+    margin: 30px 0px;
+}
+.banner .btn{
+    text-decoration: none;
+    padding: 15px 28px;
+    color: #000;
+    text-transform: capitalize;
+    background-color: rgb(219, 127, 93);
+    border-radius: 15px;
+    display: inline-block;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.service{
+    padding: 40px 0px;
+}
+.service h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px;
+    color: black;
+}
+.services-items{
+    display: flex;
+    justify-content: space-between;
+}
+.services-items .item{
+    width: 30%;
+    padding: 20px;
+    background-color: #008083;
+}
+.services-items .item img{
+    width: 100%;
+}
+.services-items .item h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+}
+.services-items .item p{
+    color: white;
+    padding: 10px 0px;
+    
+}
+.services-items .item .btn , .about .content .btn{
+    background-color: #fe6347;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.about{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about .content{
+    width: 70%;
+}
+.about .content h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about .content p{
+    color: #000;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.about .content .btn{
+    padding: 0px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.about .sidebar{
+    width: 30%;
+}
+.about .sidebar h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about .sidebar ul{
+    list-style: none;
+}
+.about .sidebar ul li img{
+    width: 3%;
+}
+.about .sidebar ul li{
+    display: flex;
+    align-items: center;
+    margin:10px 0px;
+    padding-bottom: 8px;
+}
+.about .sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about .sidebar ul li:first-child,.about .sidebar ul li:nth-child(2),.about .sidebar ul li:nth-child(3){
+    border-bottom: 1px solid #8f8d8d;
+}
+footer{
+    background-color: #008083;
+    padding: 30px;
+}
+footer h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
